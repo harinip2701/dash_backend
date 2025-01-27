@@ -1,0 +1,196 @@
+[
+    {
+        "device_name": "EZEE",
+        "last_state": "RUNNING",
+        "pods": [
+            {
+                "name": "grafana",
+                "image": "grafana/grafana:9.4.7",
+                "uuid": "dbda19bd-8511-401d-8d00-6361a65fa61e",
+                "internal": "10.11.12.5:3000",
+                "external": "127.0.0.1:3000",
+                "memory": "181 MB/112 MB"
+            },
+            {
+                "name": "influxdb",
+                "image": "library/influxdb:2.4.0",
+                "uuid": "ccee6e83-24dd-4095-b5f8-f051eff24740",
+                "internal": "10.11.12.4:8086",
+                "external": "127.0.0.1:8086",
+                "memory": "138 MB/350 MB"
+            },
+            {
+                "name": "nginx",
+                "image": "library/nginx:latest",
+                "uuid": "447eadca-be67-4323-a582-3cabe6482751",
+                "internal": "10.11.12.2:80",
+                "external": "127.0.0.1:8001",
+                "memory": "14 MB/84 MB"
+            },
+            {
+                "name": "node-exporter",
+                "image": "prom/node-exporter:latest",
+                "uuid": "566a7dd3-e96a-4092-affe-e8e24c2ca44c",
+                "internal": "10.11.12.6:9100",
+                "external": "127.0.0.1:9100",
+                "memory": "27 MB/71 MB"
+            },
+            {
+                "name": "nodered",
+                "image": "nodered/node-red:latest",
+                "uuid": "b1f1d626-79c7-4077-b1f8-725f867c7b04",
+                "internal": "10.11.12.3:1880",
+                "external": "127.0.0.1:1880",
+                "memory": "109 MB/184 MB"
+            },
+            {
+                "name": "prometheus",
+                "image": "prom/prometheus:latest",
+                "uuid": "23daac00-6f8d-4ed5-8375-3a4bd1ec06a1",
+                "internal": "10.11.12.7:9090",
+                "external": "127.0.0.1:9090",
+                "memory": "79 MB/19 MB"
+            }
+        ],
+        "eve_ip": "192.168.1.19",
+        "last_info_received_time": "2024-10-10 05"
+    },
+    {
+        "device_name": "IPLON",
+        "last_state": "RUNNING",
+        "pods": [
+            {
+                "name": "nginx",
+                "image": "library/nginx:latest",
+                "uuid": "fdc8af88-15c3-4b87-8454-b2e7ecf85fba",
+                "internal": "10.11.12.2:80",
+                "external": "127.0.0.1:8001",
+                "memory": "4.0 MB/94 MB"
+            },  {
+                "name": "node-exporter",
+                "image": "prom/node-exporter:latest",
+                "uuid": "566a7dd3-e96a-4092-affe-e8e24c2ca44c",
+                "internal": "10.11.12.6:9100",
+                "external": "127.0.0.1:9100",
+                "memory": "27 MB/71 MB"
+            },
+            {
+                "name": "nodered",
+                "image": "nodered/node-red:latest",
+                "uuid": "b1f1d626-79c7-4077-b1f8-725f867c7b04",
+                "internal": "10.11.12.3:1880",
+                "external": "127.0.0.1:1880",
+                "memory": "109 MB/184 MB"
+            }
+        ],
+        "eve_ip": "192.168.1.9",
+        "last_info_received_time": "2024-10-10 05"
+    },
+    {
+        "device_name": "DEVICE 3",
+        "last_state": "RUNNING",
+        "pods": [
+            {
+                "name": "nginx",
+                "image": "library/nginx:latest",
+                "uuid": "fdc8af88-15c3-4b87-8454-b2e7ecf85fba",
+                "internal": "10.11.12.2:80",
+                "external": "127.0.0.1:8001",
+                "memory": "4.0 MB/94 MB"
+            },
+            {
+                "name": "node-exporter",
+                "image": "prom/node-exporter:latest",
+                "uuid": "566a7dd3-e96a-4092-affe-e8e24c2ca44c",
+                "internal": "10.11.12.6:9100",
+                "external": "127.0.0.1:9100",
+                "memory": "27 MB/71 MB"
+            },  
+            
+            {
+                "name": "prometheus",
+                "image": "prom/prometheus:latest",
+                "uuid": "23daac00-6f8d-4ed5-8375-3a4bd1ec06a1",
+                "internal": "10.11.12.7:9090",
+                "external": "127.0.0.1:9090",
+                "memory": "79 MB/19 MB"
+            }
+        ],
+        "eve_ip": "192.168.1.9",
+        "last_info_received_time": "2024-10-10 05"
+    },
+    {
+        "device_name": "DEVICE 4",
+        "last_state": "RUNNING",
+        "pods": [
+            {
+                "name": "nginx",
+                "image": "library/nginx:latest",
+                "uuid": "fdc8af88-15c3-4b87-8454-b2e7ecf85fba",
+                "internal": "10.11.12.2:80",
+                "external": "127.0.0.1:8001",
+                "memory": "4.0 MB/94 MB"
+            },  
+            
+            {
+                "name": "node-exporter",
+                "image": "prom/node-exporter:latest",
+                "uuid": "566a7dd3-e96a-4092-affe-e8e24c2ca44c",
+                "internal": "10.11.12.6:9100",
+                "external": "127.0.0.1:9100",
+                "memory": "27 MB/71 MB"
+            }
+
+        ],
+        "eve_ip": "192.168.1.9",
+        "last_info_received_time": "2024-10-10 05"
+    },
+    {
+        "device_name": "DEVICE 5",
+        "last_state": "Haltted",
+        "pods": [
+            {
+                "name": "nginx",
+                "image": "library/nginx:latest",
+                "uuid": "fdc8af88-15c3-4b87-8454-b2e7ecf85fba",
+                "internal": "10.11.12.2:80",
+                "external": "127.0.0.1:8001",
+                "memory": "4.0 MB/94 MB"
+            },
+            {
+                "name": "influxdb",
+                "image": "library/influxdb:2.4.0",
+                "uuid": "ccee6e83-24dd-4095-b5f8-f051eff24740",
+                "internal": "10.11.12.4:8086",
+                "external": "127.0.0.1:8086",
+                "memory": "138 MB/350 MB"
+            },
+            {
+                "name": "nginx",
+                "image": "library/nginx:latest",
+                "uuid": "447eadca-be67-4323-a582-3cabe6482751",
+                "internal": "10.11.12.2:80",
+                "external": "127.0.0.1:8001",
+                "memory": "14 MB/84 MB"
+            },
+            {
+                "name": "node-exporter",
+                "image": "prom/node-exporter:latest",
+                "uuid": "566a7dd3-e96a-4092-affe-e8e24c2ca44c",
+                "internal": "10.11.12.6:9100",
+                "external": "127.0.0.1:9100",
+                "memory": "27 MB/71 MB"
+            },
+            {
+                "name": "nodered",
+                "image": "nodered/node-red:latest",
+                "uuid": "b1f1d626-79c7-4077-b1f8-725f867c7b04",
+                "internal": "10.11.12.3:1880",
+                "external": "127.0.0.1:1880",
+                "memory": "109 MB/184 MB"
+            }
+        ],
+        "eve_ip": "192.168.1.9",
+        "last_info_received_time": "2024-10-10 05"
+    }
+]
